@@ -1,0 +1,82 @@
+Node js 
+comes with npm module
+
+it is different from selenium 
+It does not work on the selenium 
+Designed for devs 
+Automate end to end testcases 
+we can use it for api testcases 
+
+
+selenium vs cypress 
+
+web and api
+Test runner is free only 
+setup and installation is easy 
+javascripe and type script support 
+chrome edge, fierfox and electron 
+mocha support 
+faster since it rund inside of the browser/ 
+
+Mocha reporters 
+
+
+
+Cypress Eco system 
+--Testrunner - free 
+Features 
+--Time travel 
+--ss for each step 
+--Debugging is easy 
+--Automatic waits - built in waits 
+--consitence results 
+--ss and video inbuilt 
+--cross browser testing --localy and remotely 
+
+
+
+--Limitations 
+
+1- Can not automate window based application. 
+2- Limited support for browser.
+3- reading and writing data into fiel is difficult. 
+
+
+--Cypress command 
+
+1.install node and npm 
+2.check once it is installed 
+  ---npm - node package manager 
+ ---node is an environment 
+
+ --for package.json --npm -i init
+ --npm install cypress --save --include=dev
+
+ --npx cypress open 
+ or 
+-- node_modules/.bin/Cypress open
+
+not from cypress app -- headless mode
+
+-- npx cypress run
+
+no headless mode 
+--npx cypress run --headed
+
+--- spcific file 
+
+npx cypress run --spec cypress\e2e\firstTest.cy.js
+
+or 
+
+npx cypress run --spec --headed cypress\e2e\firstTest.cy.js
+
+--browser specific run for suite or spec
+
+npx cypress run --browser chrome
+
+npx cypress run --browser chrome --headed 
+
+
+
+
